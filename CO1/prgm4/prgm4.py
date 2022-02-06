@@ -1,6 +1,13 @@
-"""replace the character of a string"""
-c=input("enter the string: ")
-a=c[0]
-s=c[1:]
-snew=(s.replace('a','$'))
-print("the new string is:"+a+snew)
+def word_count(str):
+    counts = dict()
+    words = str.split()
+
+    for word in words:
+        if word in counts:
+            counts[word] += 1
+        else:
+            counts[word] = 1
+
+    return counts
+text=input("enter the text:")
+print( word_count(text))

@@ -1,5 +1,5 @@
-list1=int(input("enter the total numbers in list1"))
-list2=int(input("enter the total numbers in list2"))
+list1=int(input("enter the total numbers in list1:"))
+list2=int(input("enter the total numbers in list2:"))
 a=[]
 b=[]
 for i in range(list1):
