@@ -25,8 +25,8 @@ x=r2.area()
 r2.perimeter()
         
 if e>x:
-    print("rectangle 1 is great")
+    print("area of rectangle 1 is great")
 elif e<x:
-    print("rectangle 2 is great")
+    print("area of rectangle 2 is great")
 else :
      print("both area are same")
