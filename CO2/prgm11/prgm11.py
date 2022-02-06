@@ -7,6 +7,6 @@ b=int(input("enter the value of b:"))
 c=int(input("enter the value of c:"))
 s = (a + b + c) / 2
 
-print(area_square(a))
-print(area_rectangle(a,b))
-print(area_triangle(s,a,b,c))
+print("area of square:",area_square(a))
+print("area of rectangle:",area_rectangle(a,b))
+print("area of triangle:",area_triangle(s,a,b,c))
